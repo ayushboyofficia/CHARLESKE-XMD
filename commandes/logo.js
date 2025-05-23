@@ -70,10 +70,10 @@ zokou({ nomCom: "logo", categorie: "Search", reaction: "🎬" }, async (dest, zk
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "🌟 CHARLESKE-VMD ✨",
-        body: "Regards, CHARLESKE🥳",
+        title: "🌟 AAYUSH X ROBOT ✨",
+        body: "Regards, AAYUSH 🥳",
         thumbnailUrl: ".https://files.catbox.moe/kqqtnz.jpeg",
-        sourceUrl: "https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x",
+        sourceUrl: "https://whatsapp.com/channel/002Vad7YNyJuyA77CtIPX0x",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
@@ -258,7 +258,7 @@ zokou({ nomCom: "logo", categorie: "Search", reaction: "🎬" }, async (dest, zk
         if (logoUrl) {
           await zk.sendMessage(dest, {
             image: { url: logoUrl },
-            caption: `*POWERED BY CHARLESKE*`,
+            caption: `*POWERED BY AAYUSH*`,
           }, { quoted: ms });
         }
       }
